@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 750px;
+}
+
+.search{
+    width: 750px;
+}
+
+.searchbox{
+    position: relative;
+}
+
+.search_input{
+    background: #fafaf6;
+    width: 85%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 20px auto;
+    font-size: 0.9em;
+    display: block;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.usercard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fafaf6;
+    margin: 20px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 15px 0px;
+}
+
+.profilepic{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    align-self: center;
+    overflow: hidden;
+    margin: 30px 0px;
+    margin-bottom: 0px;
+    width: 30%;
+}
+
+.userinfo h2{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.userinfo p{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: #555555;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.userinfo ul{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.userinfo ul li{
+    list-style: none;
+}
+
+.repo{
+    margin: 10px 15px;
+}
+
+.repo a{
+    background: #ddd;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.repo a:hover{
+    background: #bbb;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
